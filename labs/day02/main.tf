@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~>3.6"
+      version = "~> 6.0"
     }
   }
 }
@@ -17,7 +17,6 @@ provider "aws" {
       Project   = "terraform-aws-labs"
       Owner     = "viswanath"
       Managedby = "terraform"
-      Environment = "dev"
       Environment = "dev"
 
     }
